@@ -1,7 +1,13 @@
+
+
 class Main {
   public static void main(String[] args) {
 // for, while, do while
 
+
+  for (int i = 0; i < 32; i++) { 
+    System.out.println (i);
+      }
     //printBinary(5, 8);
     
   }
