@@ -1,7 +1,18 @@
+
+
 class Main {
   public static void main(String[] args) {
 // for, while, do while
 
+int i = 0;
+  for (; ;) { 
+    System.out.println(i);
+    if(i > 31){
+    break;
+      }
+    i++;
+    }
+    
     //printBinary(5, 8);
     
   }
