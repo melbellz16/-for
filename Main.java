@@ -5,11 +5,12 @@ class Main {
 // for, while, do while
 
 int i = 0;
-  for (; ; i++) { 
+  for (; ;) { 
     System.out.println(i);
     if(i > 31){
     break;
       }
+    i++;
     }
     
     //printBinary(5, 8);
